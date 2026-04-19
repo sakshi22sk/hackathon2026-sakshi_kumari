@@ -1,0 +1,115 @@
+[
+{"product_id":"P001","name":"ProSound Wireless Headphones","category":"electronics","price":129.99,"warranty_months":12,"return_window_days":30,"returnable":true,"notes":"Return not accepted if seal is broken unless defective."},
+{"product_id":"P002","name":"SwiftRun Pro Running Shoes","category":"footwear","price":89.99,"warranty_months":0,"return_window_days":30,"returnable":true,"notes":"Must be unused and in original packaging."},
+{"product_id":"P003","name":"BrewMaster 3000 Coffee Maker","category":"home_appliances","price":199.99,"warranty_months":24,"return_window_days":30,"returnable":true,"notes":"Warranty covers manufacturing defects."},
+{"product_id":"P004","name":"ErgoLift Laptop Stand","category":"electronics_accessories","price":49.99,"warranty_months":6,"return_window_days":60,"returnable":true,"notes":"Extended return window."},
+{"product_id":"P005","name":"ZenFlow Yoga Mat","category":"sports","price":39.99,"warranty_months":0,"return_window_days":30,"returnable":true,"notes":"Non-returnable if used."},
+
+{"product_id":"P006","name":"PulseX Smart Watch","category":"electronics","price":249.99,"warranty_months":12,"return_window_days":15,"returnable":true,"notes":"Short return window."},
+{"product_id":"P007","name":"LumiDesk LED Lamp","category":"home","price":44.99,"warranty_months":12,"return_window_days":30,"returnable":true,"notes":"Standard policy."},
+{"product_id":"P008","name":"BoomBox Mini Speaker","category":"electronics","price":79.99,"warranty_months":12,"return_window_days":30,"returnable":true,"notes":"Non-returnable if registered."},
+
+{"product_id":"P009","name":"AeroFit Dumbbells Set","category":"sports","price":59.99,"warranty_months":6,"return_window_days":30,"returnable":true,"notes":"Wear excluded."},
+{"product_id":"P010","name":"ChillMate Air Cooler","category":"home_appliances","price":149.99,"warranty_months":12,"return_window_days":30,"returnable":true,"notes":"Filters excluded."},
+
+{"product_id":"P011","name":"UltraCharge Power Bank","category":"electronics","price":29.99,"warranty_months":6,"return_window_days":30,"returnable":true,"notes":"No return if damaged."},
+{"product_id":"P012","name":"FlexiGrip Phone Holder","category":"electronics_accessories","price":14.99,"warranty_months":3,"return_window_days":30,"returnable":true,"notes":"Accessory policy."},
+
+{"product_id":"P013","name":"SmartChef Induction Cooktop","category":"home_appliances","price":89.99,"warranty_months":12,"return_window_days":30,"returnable":true,"notes":"Warranty void if tampered."},
+{"product_id":"P014","name":"ComfyNest Pillow Set","category":"home","price":34.99,"warranty_months":0,"return_window_days":15,"returnable":true,"notes":"Hygiene restrictions."},
+{"product_id":"P015","name":"TrailBlazer Hiking Backpack","category":"outdoor","price":79.99,"warranty_months":12,"return_window_days":30,"returnable":true,"notes":"Return if unused."},
+{"product_id":"P016","name":"HydroMax Water Bottle","category":"lifestyle","price":19.99,"warranty_months":0,"return_window_days":15,"returnable":true,"notes":"No return after use."},
+
+{"product_id":"P017","name":"VisionPro Webcam","category":"electronics","price":69.99,"warranty_months":12,"return_window_days":30,"returnable":true,"notes":"Standard."},
+{"product_id":"P018","name":"SpeedX Gaming Mouse","category":"electronics","price":39.99,"warranty_months":12,"return_window_days":30,"returnable":true,"notes":"Switch warranty only."},
+{"product_id":"P019","name":"KeyPro Mechanical Keyboard","category":"electronics","price":99.99,"warranty_months":12,"return_window_days":30,"returnable":true,"notes":"No liquid damage."},
+{"product_id":"P020","name":"SoundWave Earbuds","category":"electronics","price":59.99,"warranty_months":6,"return_window_days":15,"returnable":true,"notes":"Short return window."},
+
+{"product_id":"P021","name":"UrbanFit T-Shirt","category":"clothing","price":24.99,"warranty_months":0,"return_window_days":30,"returnable":true,"notes":"Must be unworn."},
+{"product_id":"P022","name":"DenimFlex Jeans","category":"clothing","price":49.99,"warranty_months":0,"return_window_days":30,"returnable":true,"notes":"Tags required."},
+{"product_id":"P023","name":"Classic Leather Wallet","category":"accessories","price":29.99,"warranty_months":6,"return_window_days":30,"returnable":true,"notes":"Wear excluded."},
+{"product_id":"P024","name":"SilverLine Wrist Watch","category":"accessories","price":119.99,"warranty_months":12,"return_window_days":15,"returnable":true,"notes":"Battery excluded."},
+
+{"product_id":"P025","name":"CookPro Knife Set","category":"kitchen","price":69.99,"warranty_months":12,"return_window_days":30,"returnable":true,"notes":"Sharp item policy."},
+{"product_id":"P026","name":"BakeEase Oven Tray","category":"kitchen","price":19.99,"warranty_months":0,"return_window_days":30,"returnable":true,"notes":"Standard."},
+{"product_id":"P027","name":"QuickBlend Mixer","category":"home_appliances","price":79.99,"warranty_months":12,"return_window_days":30,"returnable":true,"notes":"Motor covered."},
+{"product_id":"P028","name":"CleanSweep Vacuum","category":"home_appliances","price":149.99,"warranty_months":12,"return_window_days":30,"returnable":true,"notes":"Dust bag excluded."},
+
+{"product_id":"P029","name":"StudyMate Table","category":"furniture","price":129.99,"warranty_months":12,"return_window_days":15,"returnable":true,"notes":"Assembly required."},
+{"product_id":"P030","name":"Relaxo Office Chair","category":"furniture","price":199.99,"warranty_months":24,"return_window_days":15,"returnable":true,"notes":"No scratches allowed."},
+
+{"product_id":"P031","name":"FitPulse Resistance Bands","category":"sports","price":19.99,"warranty_months":0,"return_window_days":30,"returnable":true,"notes":"Stretch damage excluded."},
+{"product_id":"P032","name":"RunTrack Fitness Tracker","category":"electronics","price":59.99,"warranty_months":12,"return_window_days":15,"returnable":true,"notes":"Short window."},
+
+{"product_id":"P033","name":"GlowSkin Face Serum","category":"beauty","price":29.99,"warranty_months":0,"return_window_days":7,"returnable":false,"notes":"Non-returnable hygiene item."},
+{"product_id":"P034","name":"HairCare Pro Dryer","category":"beauty","price":49.99,"warranty_months":12,"return_window_days":15,"returnable":true,"notes":"Electrical warranty applies."},
+
+{"product_id":"P035","name":"TravelMate Suitcase","category":"luggage","price":99.99,"warranty_months":24,"return_window_days":30,"returnable":true,"notes":"Wheel damage excluded."},
+{"product_id":"P036","name":"Compact Umbrella","category":"lifestyle","price":14.99,"warranty_months":0,"return_window_days":15,"returnable":true,"notes":"Standard."},
+
+{"product_id":"P037","name":"PetCare Grooming Kit","category":"pet_supplies","price":39.99,"warranty_months":6,"return_window_days":15,"returnable":true,"notes":"Hygiene restrictions."},
+{"product_id":"P038","name":"DogPlay Chew Toy","category":"pet_supplies","price":9.99,"warranty_months":0,"return_window_days":15,"returnable":true,"notes":"No return if used."},
+
+{"product_id":"P039","name":"GardenPro Hose Pipe","category":"garden","price":24.99,"warranty_months":6,"return_window_days":30,"returnable":true,"notes":"Leak warranty."},
+{"product_id":"P040","name":"PlantGrow Fertilizer","category":"garden","price":19.99,"warranty_months":0,"return_window_days":7,"returnable":false,"notes":"Consumable item."},
+
+{"product_id":"P041","name":"DriveSafe Car Charger","category":"automotive","price":14.99,"warranty_months":6,"return_window_days":30,"returnable":true,"notes":"Standard."},
+{"product_id":"P042","name":"AutoClean Car Vacuum","category":"automotive","price":49.99,"warranty_months":12,"return_window_days":30,"returnable":true,"notes":"Motor covered."},
+
+{"product_id":"P043","name":"NoteMaster Notebook","category":"stationery","price":9.99,"warranty_months":0,"return_window_days":15,"returnable":true,"notes":"Standard."},
+{"product_id":"P044","name":"InkFlow Gel Pens Pack","category":"stationery","price":12.99,"warranty_months":0,"return_window_days":15,"returnable":true,"notes":"Consumable."},
+
+{"product_id":"P045","name":"GameX Wireless Controller","category":"gaming","price":69.99,"warranty_months":12,"return_window_days":15,"returnable":true,"notes":"Warranty covers buttons."},
+{"product_id":"P046","name":"VRPlay Headset","category":"gaming","price":299.99,"warranty_months":12,"return_window_days":10,"returnable":true,"notes":"Strict return policy."},
+
+{"product_id":"P047","name":"SmartLock Door System","category":"home_security","price":199.99,"warranty_months":24,"return_window_days":15,"returnable":true,"notes":"Installation required."},
+{"product_id":"P048","name":"SecureCam CCTV","category":"home_security","price":149.99,"warranty_months":12,"return_window_days":15,"returnable":true,"notes":"Cloud service excluded."},
+
+{"product_id":"P049","name":"KidsPlay Building Blocks","category":"toys","price":29.99,"warranty_months":0,"return_window_days":30,"returnable":true,"notes":"Standard."},
+{"product_id":"P050","name":"RoboToy Interactive Bot","category":"toys","price":59.99,"warranty_months":6,"return_window_days":30,"returnable":true,"notes":"Battery excluded."},
+
+{"product_id":"P051","name":"SleepWell Mattress","category":"home","price":399.99,"warranty_months":36,"return_window_days":10,"returnable":true,"notes":"Trial policy."},
+{"product_id":"P052","name":"SoftTouch Bedsheet","category":"home","price":49.99,"warranty_months":0,"return_window_days":15,"returnable":true,"notes":"Hygiene applies."},
+
+{"product_id":"P053","name":"OfficePro Printer","category":"electronics","price":199.99,"warranty_months":12,"return_window_days":15,"returnable":true,"notes":"Ink excluded."},
+{"product_id":"P054","name":"ScanX Document Scanner","category":"electronics","price":129.99,"warranty_months":12,"return_window_days":15,"returnable":true,"notes":"Standard."},
+
+{"product_id":"P055","name":"ChefElite Cookware Set","category":"kitchen","price":149.99,"warranty_months":12,"return_window_days":30,"returnable":true,"notes":"Coating excluded."},
+{"product_id":"P056","name":"TeaTime Electric Kettle","category":"kitchen","price":39.99,"warranty_months":12,"return_window_days":30,"returnable":true,"notes":"Heating element covered."},
+
+{"product_id":"P057","name":"PowerMax Inverter","category":"electronics","price":299.99,"warranty_months":24,"return_window_days":10,"returnable":true,"notes":"Battery excluded."},
+{"product_id":"P058","name":"SolarLite Panel Kit","category":"electronics","price":249.99,"warranty_months":24,"return_window_days":10,"returnable":true,"notes":"Installation needed."},
+
+{"product_id":"P059","name":"AirPure Room Purifier","category":"home_appliances","price":179.99,"warranty_months":12,"return_window_days":15,"returnable":true,"notes":"Filter excluded."},
+{"product_id":"P060","name":"CoolBreeze Ceiling Fan","category":"home_appliances","price":89.99,"warranty_months":24,"return_window_days":15,"returnable":true,"notes":"Motor warranty."},
+
+{"product_id":"P061","name":"TravelLite Backpack","category":"luggage","price":59.99,"warranty_months":12,"return_window_days":30,"returnable":true,"notes":"Standard."},
+{"product_id":"P062","name":"Explorer Camping Tent","category":"outdoor","price":129.99,"warranty_months":12,"return_window_days":30,"returnable":true,"notes":"Weather damage excluded."},
+
+{"product_id":"P063","name":"FitCycle Exercise Bike","category":"fitness","price":399.99,"warranty_months":24,"return_window_days":10,"returnable":true,"notes":"Assembly required."},
+{"product_id":"P064","name":"GymPro Treadmill","category":"fitness","price":699.99,"warranty_months":24,"return_window_days":10,"returnable":true,"notes":"Installation needed."},
+
+{"product_id":"P065","name":"MusicBeat Soundbar","category":"electronics","price":149.99,"warranty_months":12,"return_window_days":15,"returnable":true,"notes":"Standard."},
+{"product_id":"P066","name":"CinemaX Projector","category":"electronics","price":299.99,"warranty_months":12,"return_window_days":10,"returnable":true,"notes":"Lamp excluded."},
+
+{"product_id":"P067","name":"StylePro Hair Straightener","category":"beauty","price":39.99,"warranty_months":12,"return_window_days":15,"returnable":true,"notes":"Standard."},
+{"product_id":"P068","name":"GlowUp Makeup Kit","category":"beauty","price":59.99,"warranty_months":0,"return_window_days":7,"returnable":false,"notes":"Hygiene product."},
+
+{"product_id":"P069","name":"SmartHome Hub","category":"electronics","price":129.99,"warranty_months":12,"return_window_days":15,"returnable":true,"notes":"Standard."},
+{"product_id":"P070","name":"VoiceAssist Speaker","category":"electronics","price":99.99,"warranty_months":12,"return_window_days":15,"returnable":true,"notes":"Standard."},
+
+{"product_id":"P071","name":"CleanPro Mop Set","category":"home","price":29.99,"warranty_months":6,"return_window_days":30,"returnable":true,"notes":"Wear excluded."},
+{"product_id":"P072","name":"DustAway Cleaning Kit","category":"home","price":19.99,"warranty_months":0,"return_window_days":30,"returnable":true,"notes":"Standard."},
+
+{"product_id":"P073","name":"BabyCare Feeding Bottle","category":"baby_products","price":14.99,"warranty_months":0,"return_window_days":7,"returnable":false,"notes":"Hygiene product."},
+{"product_id":"P074","name":"SoftNest Baby Blanket","category":"baby_products","price":24.99,"warranty_months":0,"return_window_days":15,"returnable":true,"notes":"Standard."},
+
+{"product_id":"P075","name":"OfficeLite Desk Organizer","category":"stationery","price":19.99,"warranty_months":0,"return_window_days":30,"returnable":true,"notes":"Standard."},
+{"product_id":"P076","name":"WritePro Marker Set","category":"stationery","price":14.99,"warranty_months":0,"return_window_days":15,"returnable":true,"notes":"Consumable."},
+
+{"product_id":"P077","name":"SpeedDrive USB SSD","category":"electronics","price":119.99,"warranty_months":12,"return_window_days":15,"returnable":true,"notes":"Data loss not covered."},
+{"product_id":"P078","name":"NetConnect WiFi Router","category":"electronics","price":79.99,"warranty_months":12,"return_window_days":15,"returnable":true,"notes":"Standard."},
+
+{"product_id":"P079","name":"SafeRide Helmet","category":"automotive","price":49.99,"warranty_months":6,"return_window_days":30,"returnable":true,"notes":"No impact damage return."},
+{"product_id":"P080","name":"RoadTrip GPS Navigator","category":"automotive","price":129.99,"warranty_months":12,"return_window_days":15,"returnable":true,"notes":"Standard."}
+]

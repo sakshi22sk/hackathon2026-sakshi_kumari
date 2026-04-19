@@ -1,0 +1,111 @@
+[
+{"ticket_id":"TKT-001","customer_email":"alice.turner@email.com","customer_id":"C001","order_id":"ORD-1001","query_type":"refund","subject":"Refund request","body":"Product stopped working.","source":"email","created_at":"2024-03-15T09:12:00Z","tier":1,"expected_action":"process refund"},
+{"ticket_id":"TKT-002","customer_email":"bob.mendes@email.com","customer_id":"C002","order_id":"ORD-1002","query_type":"return","subject":"Return watch","body":"Want to return product.","source":"email","created_at":"2024-03-15T10:00:00Z","tier":1,"expected_action":"check return window"},
+{"ticket_id":"TKT-003","customer_email":"carol.nguyen@email.com","customer_id":"C003","order_id":"ORD-1003","query_type":"warranty","subject":"Product defect","body":"Stopped working.","source":"ticket_queue","created_at":"2024-03-15T11:00:00Z","tier":1,"expected_action":"check warranty"},
+{"ticket_id":"TKT-004","customer_email":"david.park@email.com","customer_id":"C004","order_id":"ORD-1004","query_type":"exchange","subject":"Wrong item","body":"Wrong size received.","source":"email","created_at":"2024-03-15T12:00:00Z","tier":1,"expected_action":"exchange item"},
+{"ticket_id":"TKT-005","customer_email":"emma.collins@email.com","customer_id":"C005","order_id":"ORD-1005","query_type":"return","subject":"Late return","body":"Return after window.","source":"ticket_queue","created_at":"2024-03-15T13:00:00Z","tier":2,"expected_action":"check exception"},
+
+{"ticket_id":"TKT-006","customer_email":"frank.osei@email.com","customer_id":"C006","order_id":"ORD-1006","query_type":"cancel","subject":"Cancel order","body":"Cancel immediately.","source":"email","created_at":"2024-03-15T14:00:00Z","tier":1,"expected_action":"cancel order"},
+{"ticket_id":"TKT-007","customer_email":"grace.patel@email.com","customer_id":"C007","order_id":"ORD-1007","query_type":"return","subject":"Return request","body":"Product unstable.","source":"ticket_queue","created_at":"2024-03-15T15:00:00Z","tier":1,"expected_action":"approve return"},
+{"ticket_id":"TKT-008","customer_email":"henry.marsh@email.com","customer_id":"C008","order_id":"ORD-1008","query_type":"refund","subject":"Damaged item","body":"Broken on arrival.","source":"email","created_at":"2024-03-15T16:00:00Z","tier":1,"expected_action":"refund"},
+{"ticket_id":"TKT-009","customer_email":"irene.castillo@email.com","customer_id":"C009","order_id":"ORD-1009","query_type":"refund_status","subject":"Refund check","body":"Check refund status.","source":"ticket_queue","created_at":"2024-03-15T17:00:00Z","tier":1,"expected_action":"confirm refund"},
+{"ticket_id":"TKT-010","customer_email":"james.wu@email.com","customer_id":"C010","order_id":"ORD-1010","query_type":"tracking","subject":"Track order","body":"Where is order?","source":"email","created_at":"2024-03-15T18:00:00Z","tier":1,"expected_action":"provide tracking"},
+
+{"ticket_id":"TKT-011","customer_email":"user11@email.com","customer_id":"C011","order_id":"ORD-1011","query_type":"exchange","subject":"Wrong variant","body":"Wrong color.","source":"ticket_queue","created_at":"2024-03-16T09:00:00Z","tier":2,"expected_action":"exchange"},
+{"ticket_id":"TKT-012","customer_email":"user12@email.com","customer_id":"C012","order_id":"ORD-1012","query_type":"cancel","subject":"Cancel request","body":"Cancel order.","source":"email","created_at":"2024-03-16T10:00:00Z","tier":1,"expected_action":"cancel"},
+{"ticket_id":"TKT-013","customer_email":"user13@email.com","customer_id":"C013","order_id":"ORD-1013","query_type":"return","subject":"Return expired","body":"Return not allowed.","source":"ticket_queue","created_at":"2024-03-16T11:00:00Z","tier":2,"expected_action":"deny return"},
+{"ticket_id":"TKT-014","customer_email":"user14@email.com","customer_id":"C014","order_id":"ORD-1014","query_type":"return_info","subject":"Return info","body":"Need return details.","source":"email","created_at":"2024-03-16T12:00:00Z","tier":1,"expected_action":"provide info"},
+{"ticket_id":"TKT-015","customer_email":"user15@email.com","customer_id":"C015","order_id":"ORD-1015","query_type":"replacement","subject":"Damaged","body":"Need replacement.","source":"ticket_queue","created_at":"2024-03-16T13:00:00Z","tier":2,"expected_action":"replace item"},
+
+{"ticket_id":"TKT-016","customer_email":"user16@email.com","customer_id":"C016","order_id":"ORD-1016","query_type":"delivery_issue","subject":"Not received","body":"Marked delivered but not received.","source":"email","created_at":"2024-03-16T14:00:00Z","tier":2,"expected_action":"investigate"},
+{"ticket_id":"TKT-017","customer_email":"user17@email.com","customer_id":"C017","order_id":"ORD-1017","query_type":"cancel","subject":"Cancel fast","body":"Cancel before ship.","source":"ticket_queue","created_at":"2024-03-16T15:00:00Z","tier":1,"expected_action":"cancel"},
+{"ticket_id":"TKT-018","customer_email":"user18@email.com","customer_id":"C018","order_id":"ORD-1018","query_type":"refund","subject":"Damaged item","body":"Item damaged.","source":"email","created_at":"2024-03-16T16:00:00Z","tier":1,"expected_action":"refund"},
+{"ticket_id":"TKT-019","customer_email":"user19@email.com","customer_id":"C019","order_id":"ORD-1019","query_type":"exchange","subject":"Size issue","body":"Wrong size.","source":"ticket_queue","created_at":"2024-03-16T17:00:00Z","tier":1,"expected_action":"exchange"},
+{"ticket_id":"TKT-020","customer_email":"user20@email.com","customer_id":"C020","order_id":"ORD-1020","query_type":"delay","subject":"Late order","body":"Delayed delivery.","source":"email","created_at":"2024-03-16T18:00:00Z","tier":1,"expected_action":"update ETA"},
+
+{"ticket_id":"TKT-021","customer_email":"user21@email.com","customer_id":"C021","order_id":"ORD-1021","query_type":"refund_status","subject":"Refund pending","body":"Refund delay.","source":"ticket_queue","created_at":"2024-03-17T09:00:00Z","tier":1,"expected_action":"check status"},
+{"ticket_id":"TKT-022","customer_email":"user22@email.com","customer_id":"C022","order_id":"ORD-1022","query_type":"wrong_item","subject":"Wrong item","body":"Incorrect product.","source":"email","created_at":"2024-03-17T10:00:00Z","tier":1,"expected_action":"replace"},
+{"ticket_id":"TKT-023","customer_email":"user23@email.com","customer_id":"C023","order_id":"ORD-1023","query_type":"warranty","subject":"Warranty claim","body":"Stopped working.","source":"ticket_queue","created_at":"2024-03-17T11:00:00Z","tier":2,"expected_action":"warranty"},
+{"ticket_id":"TKT-024","customer_email":"user24@email.com","customer_id":"C024","order_id":"ORD-1024","query_type":"invoice","subject":"Invoice","body":"Need invoice.","source":"email","created_at":"2024-03-17T12:00:00Z","tier":1,"expected_action":"send invoice"},
+{"ticket_id":"TKT-025","customer_email":"user25@email.com","customer_id":"C025","order_id":"ORD-1025","query_type":"address_change","subject":"Change address","body":"Update address.","source":"email","created_at":"2024-03-17T13:00:00Z","tier":1,"expected_action":"update address"},
+
+{"ticket_id":"TKT-026","customer_email":"user26@email.com","customer_id":"C026","order_id":"ORD-1026","query_type":"missing_item","subject":"Missing item","body":"Item missing.","source":"ticket_queue","created_at":"2024-03-17T14:00:00Z","tier":2,"expected_action":"refund or resend"},
+{"ticket_id":"TKT-027","customer_email":"user27@email.com","customer_id":"C027","order_id":"ORD-1027","query_type":"return_denied","subject":"Used item","body":"Used but return requested.","source":"email","created_at":"2024-03-17T15:00:00Z","tier":2,"expected_action":"deny"},
+{"ticket_id":"TKT-028","customer_email":"user28@email.com","customer_id":"C028","order_id":"ORD-1028","query_type":"duplicate","subject":"Duplicate order","body":"Duplicate order.","source":"email","created_at":"2024-03-17T16:00:00Z","tier":1,"expected_action":"cancel duplicate"},
+{"ticket_id":"TKT-029","customer_email":"user29@email.com","customer_id":"C029","order_id":"ORD-1029","query_type":"coupon","subject":"Coupon issue","body":"Coupon failed.","source":"ticket_queue","created_at":"2024-03-17T17:00:00Z","tier":1,"expected_action":"validate coupon"},
+{"ticket_id":"TKT-030","customer_email":"user30@email.com","customer_id":"C030","order_id":"ORD-1030","query_type":"mismatch","subject":"Mismatch","body":"Product mismatch.","source":"email","created_at":"2024-03-17T18:00:00Z","tier":2,"expected_action":"refund"},
+
+{"ticket_id":"TKT-031","customer_email":"user31@email.com","customer_id":"C031","order_id":"ORD-1031","query_type":"refund_delay","subject":"Refund delay","body":"Delayed refund.","source":"ticket_queue","created_at":"2024-03-18T09:00:00Z","tier":1,"expected_action":"check refund"},
+{"ticket_id":"TKT-032","customer_email":"user32@email.com","customer_id":"C032","order_id":"ORD-1032","query_type":"tracking_issue","subject":"Tracking issue","body":"Tracking broken.","source":"email","created_at":"2024-03-18T10:00:00Z","tier":1,"expected_action":"provide tracking"},
+
+{"ticket_id":"TKT-033","customer_email":"user33@email.com","customer_id":"C033","order_id":"ORD-1033","query_type":"general","subject":"Help","body":"Need help.","source":"email","created_at":"2024-03-18T11:00:00Z","tier":1,"expected_action":"assist"},
+{"ticket_id":"TKT-034","customer_email":"user34@email.com","customer_id":"C034","order_id":"ORD-1034","query_type":"refund","subject":"Refund","body":"Request refund.","source":"ticket_queue","created_at":"2024-03-18T12:00:00Z","tier":1,"expected_action":"refund"},
+{"ticket_id":"TKT-035","customer_email":"user35@email.com","customer_id":"C035","order_id":"ORD-1035","query_type":"return","subject":"Return","body":"Return product.","source":"email","created_at":"2024-03-18T13:00:00Z","tier":1,"expected_action":"process return"},
+
+{"ticket_id":"TKT-036","customer_email":"user36@email.com","customer_id":"C036","order_id":"ORD-1036","query_type":"warranty","subject":"Warranty","body":"Warranty issue.","source":"ticket_queue","created_at":"2024-03-18T14:00:00Z","tier":2,"expected_action":"warranty"},
+{"ticket_id":"TKT-037","customer_email":"user37@email.com","customer_id":"C037","order_id":"ORD-1037","query_type":"exchange","subject":"Exchange","body":"Exchange request.","source":"email","created_at":"2024-03-18T15:00:00Z","tier":1,"expected_action":"exchange"},
+{"ticket_id":"TKT-038","customer_email":"user38@email.com","customer_id":"C038","order_id":"ORD-1038","query_type":"delay","subject":"Delay","body":"Late delivery.","source":"ticket_queue","created_at":"2024-03-18T16:00:00Z","tier":1,"expected_action":"update ETA"},
+
+{"ticket_id":"TKT-039","customer_email":"user39@email.com","customer_id":"C039","order_id":"ORD-1039","query_type":"missing","subject":"Missing","body":"Missing item.","source":"email","created_at":"2024-03-18T17:00:00Z","tier":2,"expected_action":"resolve"},
+{"ticket_id":"TKT-040","customer_email":"user40@email.com","customer_id":"C040","order_id":"ORD-1040","query_type":"invoice","subject":"Invoice","body":"Need invoice.","source":"ticket_queue","created_at":"2024-03-18T18:00:00Z","tier":1,"expected_action":"send invoice"},
+
+{"ticket_id":"TKT-041","customer_email":"user41@email.com","customer_id":"C041","order_id":"ORD-1041","query_type":"tracking","subject":"Track","body":"Track order.","source":"email","created_at":"2024-03-19T09:00:00Z","tier":1,"expected_action":"tracking"},
+{"ticket_id":"TKT-042","customer_email":"user42@email.com","customer_id":"C042","order_id":"ORD-1042","query_type":"refund","subject":"Refund","body":"Refund needed.","source":"ticket_queue","created_at":"2024-03-19T10:00:00Z","tier":1,"expected_action":"refund"},
+
+{"ticket_id":"TKT-043","customer_email":"user43@email.com","customer_id":"C043","order_id":"ORD-1043","query_type":"return","subject":"Return","body":"Return request.","source":"email","created_at":"2024-03-19T11:00:00Z","tier":1,"expected_action":"return"},
+{"ticket_id":"TKT-044","customer_email":"user44@email.com","customer_id":"C044","order_id":"ORD-1044","query_type":"exchange","subject":"Exchange","body":"Exchange request.","source":"ticket_queue","created_at":"2024-03-19T12:00:00Z","tier":1,"expected_action":"exchange"},
+
+{"ticket_id":"TKT-045","customer_email":"user45@email.com","customer_id":"C045","order_id":"ORD-1045","query_type":"delay","subject":"Delay","body":"Order delayed.","source":"email","created_at":"2024-03-19T13:00:00Z","tier":1,"expected_action":"update"},
+{"ticket_id":"TKT-046","customer_email":"user46@email.com","customer_id":"C046","order_id":"ORD-1046","query_type":"cancel","subject":"Cancel","body":"Cancel order.","source":"ticket_queue","created_at":"2024-03-19T14:00:00Z","tier":1,"expected_action":"cancel"},
+
+{"ticket_id":"TKT-047","customer_email":"user47@email.com","customer_id":"C047","order_id":"ORD-1047","query_type":"refund_status","subject":"Refund","body":"Refund pending.","source":"email","created_at":"2024-03-19T15:00:00Z","tier":1,"expected_action":"check"},
+{"ticket_id":"TKT-048","customer_email":"user48@email.com","customer_id":"C048","order_id":"ORD-1048","query_type":"tracking","subject":"Tracking","body":"Track item.","source":"ticket_queue","created_at":"2024-03-19T16:00:00Z","tier":1,"expected_action":"tracking"},
+
+{"ticket_id":"TKT-049","customer_email":"user49@email.com","customer_id":"C049","order_id":"ORD-1049","query_type":"refund","subject":"Refund","body":"Refund needed.","source":"email","created_at":"2024-03-19T17:00:00Z","tier":1,"expected_action":"refund"},
+{"ticket_id":"TKT-050","customer_email":"user50@email.com","customer_id":"C050","order_id":"ORD-1050","query_type":"return","subject":"Return","body":"Return product.","source":"ticket_queue","created_at":"2024-03-19T18:00:00Z","tier":1,"expected_action":"return"},
+
+{"ticket_id":"TKT-051","customer_email":"user51@email.com","customer_id":"C051","order_id":"ORD-1051","query_type":"exchange","subject":"Exchange","body":"Exchange item.","source":"email","created_at":"2024-03-20T09:00:00Z","tier":1,"expected_action":"exchange"},
+{"ticket_id":"TKT-052","customer_email":"user52@email.com","customer_id":"C052","order_id":"ORD-1052","query_type":"delay","subject":"Delay","body":"Delayed.","source":"ticket_queue","created_at":"2024-03-20T10:00:00Z","tier":1,"expected_action":"update ETA"},
+
+{"ticket_id":"TKT-053","customer_email":"user53@email.com","customer_id":"C053","order_id":"ORD-1053","query_type":"missing","subject":"Missing","body":"Missing item.","source":"email","created_at":"2024-03-20T11:00:00Z","tier":2,"expected_action":"resolve"},
+{"ticket_id":"TKT-054","customer_email":"user54@email.com","customer_id":"C054","order_id":"ORD-1054","query_type":"invoice","subject":"Invoice","body":"Invoice needed.","source":"ticket_queue","created_at":"2024-03-20T12:00:00Z","tier":1,"expected_action":"send invoice"},
+
+{"ticket_id":"TKT-055","customer_email":"user55@email.com","customer_id":"C055","order_id":"ORD-1055","query_type":"tracking","subject":"Track","body":"Track order.","source":"email","created_at":"2024-03-20T13:00:00Z","tier":1,"expected_action":"tracking"},
+{"ticket_id":"TKT-056","customer_email":"user56@email.com","customer_id":"C056","order_id":"ORD-1056","query_type":"refund","subject":"Refund","body":"Refund.","source":"ticket_queue","created_at":"2024-03-20T14:00:00Z","tier":1,"expected_action":"refund"},
+
+{"ticket_id":"TKT-057","customer_email":"user57@email.com","customer_id":"C057","order_id":"ORD-1057","query_type":"return","subject":"Return","body":"Return request.","source":"email","created_at":"2024-03-20T15:00:00Z","tier":1,"expected_action":"return"},
+{"ticket_id":"TKT-058","customer_email":"user58@email.com","customer_id":"C058","order_id":"ORD-1058","query_type":"exchange","subject":"Exchange","body":"Exchange.","source":"ticket_queue","created_at":"2024-03-20T16:00:00Z","tier":1,"expected_action":"exchange"},
+
+{"ticket_id":"TKT-059","customer_email":"user59@email.com","customer_id":"C059","order_id":"ORD-1059","query_type":"delay","subject":"Delay","body":"Delayed.","source":"email","created_at":"2024-03-20T17:00:00Z","tier":1,"expected_action":"update"},
+{"ticket_id":"TKT-060","customer_email":"user60@email.com","customer_id":"C060","order_id":"ORD-1060","query_type":"cancel","subject":"Cancel","body":"Cancel order.","source":"ticket_queue","created_at":"2024-03-20T18:00:00Z","tier":1,"expected_action":"cancel"},
+
+{"ticket_id":"TKT-061","customer_email":"user61@email.com","customer_id":"C061","order_id":"ORD-1061","query_type":"refund_status","subject":"Refund","body":"Refund pending.","source":"email","created_at":"2024-03-21T09:00:00Z","tier":1,"expected_action":"check"},
+{"ticket_id":"TKT-062","customer_email":"user62@email.com","customer_id":"C062","order_id":"ORD-1062","query_type":"tracking","subject":"Tracking","body":"Track item.","source":"ticket_queue","created_at":"2024-03-21T10:00:00Z","tier":1,"expected_action":"tracking"},
+
+{"ticket_id":"TKT-063","customer_email":"user63@email.com","customer_id":"C063","order_id":"ORD-1063","query_type":"refund","subject":"Refund","body":"Refund needed.","source":"email","created_at":"2024-03-21T11:00:00Z","tier":1,"expected_action":"refund"},
+{"ticket_id":"TKT-064","customer_email":"user64@email.com","customer_id":"C064","order_id":"ORD-1064","query_type":"return","subject":"Return","body":"Return product.","source":"ticket_queue","created_at":"2024-03-21T12:00:00Z","tier":1,"expected_action":"return"},
+
+{"ticket_id":"TKT-065","customer_email":"user65@email.com","customer_id":"C065","order_id":"ORD-1065","query_type":"exchange","subject":"Exchange","body":"Exchange item.","source":"email","created_at":"2024-03-21T13:00:00Z","tier":1,"expected_action":"exchange"},
+{"ticket_id":"TKT-066","customer_email":"user66@email.com","customer_id":"C066","order_id":"ORD-1066","query_type":"delay","subject":"Delay","body":"Delayed.","source":"ticket_queue","created_at":"2024-03-21T14:00:00Z","tier":1,"expected_action":"update ETA"},
+
+{"ticket_id":"TKT-067","customer_email":"user67@email.com","customer_id":"C067","order_id":"ORD-1067","query_type":"missing","subject":"Missing","body":"Missing item.","source":"email","created_at":"2024-03-21T15:00:00Z","tier":2,"expected_action":"resolve"},
+{"ticket_id":"TKT-068","customer_email":"user68@email.com","customer_id":"C068","order_id":"ORD-1068","query_type":"invoice","subject":"Invoice","body":"Invoice needed.","source":"ticket_queue","created_at":"2024-03-21T16:00:00Z","tier":1,"expected_action":"send invoice"},
+
+{"ticket_id":"TKT-069","customer_email":"user69@email.com","customer_id":"C069","order_id":"ORD-1069","query_type":"tracking","subject":"Track","body":"Track order.","source":"email","created_at":"2024-03-21T17:00:00Z","tier":1,"expected_action":"tracking"},
+{"ticket_id":"TKT-070","customer_email":"user70@email.com","customer_id":"C070","order_id":"ORD-1070","query_type":"refund","subject":"Refund","body":"Refund.","source":"ticket_queue","created_at":"2024-03-21T18:00:00Z","tier":1,"expected_action":"refund"},
+
+{"ticket_id":"TKT-071","customer_email":"user71@email.com","customer_id":"C071","order_id":"ORD-1071","query_type":"return","subject":"Return","body":"Return request.","source":"email","created_at":"2024-03-22T09:00:00Z","tier":1,"expected_action":"return"},
+{"ticket_id":"TKT-072","customer_email":"user72@email.com","customer_id":"C072","order_id":"ORD-1072","query_type":"exchange","subject":"Exchange","body":"Exchange.","source":"ticket_queue","created_at":"2024-03-22T10:00:00Z","tier":1,"expected_action":"exchange"},
+
+{"ticket_id":"TKT-073","customer_email":"user73@email.com","customer_id":"C073","order_id":"ORD-1073","query_type":"delay","subject":"Delay","body":"Delayed.","source":"email","created_at":"2024-03-22T11:00:00Z","tier":1,"expected_action":"update"},
+{"ticket_id":"TKT-074","customer_email":"user74@email.com","customer_id":"C074","order_id":"ORD-1074","query_type":"cancel","subject":"Cancel","body":"Cancel order.","source":"ticket_queue","created_at":"2024-03-22T12:00:00Z","tier":1,"expected_action":"cancel"},
+
+{"ticket_id":"TKT-075","customer_email":"user75@email.com","customer_id":"C075","order_id":"ORD-1075","query_type":"refund_status","subject":"Refund","body":"Refund pending.","source":"email","created_at":"2024-03-22T13:00:00Z","tier":1,"expected_action":"check"},
+{"ticket_id":"TKT-076","customer_email":"user76@email.com","customer_id":"C076","order_id":"ORD-1076","query_type":"tracking","subject":"Tracking","body":"Track item.","source":"ticket_queue","created_at":"2024-03-22T14:00:00Z","tier":1,"expected_action":"tracking"},
+
+{"ticket_id":"TKT-077","customer_email":"user77@email.com","customer_id":"C077","order_id":"ORD-1077","query_type":"refund","subject":"Refund","body":"Refund needed.","source":"email","created_at":"2024-03-22T15:00:00Z","tier":1,"expected_action":"refund"},
+{"ticket_id":"TKT-078","customer_email":"user78@email.com","customer_id":"C078","order_id":"ORD-1078","query_type":"return","subject":"Return","body":"Return product.","source":"ticket_queue","created_at":"2024-03-22T16:00:00Z","tier":1,"expected_action":"return"},
+
+{"ticket_id":"TKT-079","customer_email":"user79@email.com","customer_id":"C079","order_id":"ORD-1079","query_type":"exchange","subject":"Exchange","body":"Exchange item.","source":"email","created_at":"2024-03-22T17:00:00Z","tier":1,"expected_action":"exchange"},
+{"ticket_id":"TKT-080","customer_email":"user80@email.com","customer_id":"C080","order_id":"ORD-1080","query_type":"delay","subject":"Delay","body":"Delayed.","source":"ticket_queue","created_at":"2024-03-22T18:00:00Z","tier":1,"expected_action":"update ETA"}
+]

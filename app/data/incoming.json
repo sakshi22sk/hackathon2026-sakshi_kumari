@@ -1,0 +1,18 @@
+[
+    
+    
+  {
+    "ticket_id": "TKT-001",
+    "customer_id": "C001",
+    "order_id": "ORD-1001",
+    "body": "Product not working, want refund"
+  },
+  {
+    "ticket_id": "TKT-002",
+    "customer_id": "C002",
+    "order_id": "ORD-1002",
+    "body": "Where is my order? It is delayed"
+  }
+
+
+]
