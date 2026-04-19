@@ -1,1 +1,192 @@
+# 🎯 AI Customer Support Automation System
 
+## 📌 Overview
+
+This project is an **AI-powered customer support automation system** built using **LangGraph**.
+
+It processes incoming support tickets, retrieves relevant customer and order data, makes intelligent decisions (resolve or escalate), and maintains a full audit log of all actions.
+
+---
+
+## 🚀 Features Implemented
+
+### ✅ 1. Ticket Processing Pipeline (LangGraph)
+
+* Built using **LangGraph StateGraph**
+* Flow:
+
+  ```
+  Fetch Data → Decision → Resolve / Escalate
+  ```
+
+---
+
+### ✅ 2. Data Retrieval
+
+* Fetches:
+
+  * Customer details (via `customer_tool`)
+  * Order details (via `order_tool`)
+* Optimized with **in-memory caching** for orders
+
+---
+
+### ✅ 3. AI-Based Decision Making
+
+* Uses NLP classifier (`classifier.py`)
+* Determines:
+
+  * Priority (HIGH / MEDIUM / LOW)
+  * Action:
+
+    * `resolve`
+    * `escalate`
+
+---
+
+### ✅ 4. Automated Resolution
+
+* Handles valid cases (e.g., refunds)
+* Generates system response:
+
+  ```
+  Refund issued: {'status': 'success', 'amount': X}
+  ```
+
+---
+
+### ✅ 5. Escalation System
+
+* If:
+
+  * Order not found
+  * Medium / High priority
+* Ticket is escalated using `escalation_tool`
+
+---
+
+### ✅ 6. Audit Logging System (VERY IMPORTANT)
+
+* Every step is logged:
+
+  * fetch
+  * decision
+  * resolve / escalate
+
+* Stored in:
+
+  ```
+  logs/audit_log.json
+  ```
+
+* Example log:
+
+```json
+{
+  "ticket_id": "TKT-001",
+  "step": "decision",
+  "decision": "resolve",
+  "priority": "LOW",
+  "confidence": 0.85,
+  "timestamp": "2026-04-19 20:10:00"
+}
+```
+
+---
+
+## 📂 Project Structure
+
+```
+app/
+│
+├── agents/
+│   ├── orchestrator.py     # LangGraph pipeline (core logic)
+│   ├── classifier.py       # NLP classification
+│
+├── tools/
+│   ├── order_tool.py
+│   ├── customer_tool.py
+│   ├── refund_tool.py
+│   ├── escalation_tool.py
+│   ├── notification_tool.py
+│
+├── utils/
+│   ├── logger.py           # Audit logging system
+│   ├── validator.py
+│   ├── retry.py
+│
+├── data/
+│   ├── tickets.json
+│   ├── orders.json
+│   ├── customers.json
+│
+├── logs/
+│   ├── audit_log.json
+│
+├── main.py                 # Entry point
+```
+
+---
+
+## ⚙️ How It Works
+
+1. Tickets are loaded from:
+
+   ```
+   data/incoming.json
+   ```
+
+2. Each ticket goes through:
+
+   * Data fetching
+   * AI decision
+   * Resolution or escalation
+
+3. Results are:
+
+   * Printed in terminal
+   * Logged into `audit_log.json`
+
+---
+
+## ▶️ How to Run
+
+```bash
+python -m app.main
+```
+
+---
+
+## 🧠 Key Concepts Used
+
+* API based decisions
+* Rule-based + NLP decision system
+* JSON-based data handling
+* State-driven architecture
+* Audit logging for traceability
+
+---
+
+## ⚠️ Current Limitations
+
+* No real email/API-based reply system yet
+* No frontend/dashboard
+* Logging is append-based (file grows each run)
+* No real-time human interface for escalations
+
+---
+
+## 📌 Future Enhancements (Not Implemented Yet)
+
+* AI-generated email replies (LLM integration)
+* Human-in-the-loop dashboard
+* Real-time ticket monitoring
+* Database integration (instead of JSON)
+* API deployment
+
+---
+
+## 🏁 Status
+
+✅ Core system complete
+🚧 Advanced features pending
